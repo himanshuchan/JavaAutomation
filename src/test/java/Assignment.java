@@ -9,6 +9,7 @@ public class Assignment {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
+		driver.getTitle();
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("Himanshu Baunthiyal");
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("himas.himanshu");
